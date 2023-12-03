@@ -1,0 +1,34 @@
+.someFeaturesContainer{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+  
+
+}.someFeatures{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    font-family: "Roboto",
+        sans-serif;
+}
+.someFeatures h2{
+    font-size: 34px;
+}
+.someFeatures p{
+    color: #7777;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.someFeaturesCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-top: 0px;
+}

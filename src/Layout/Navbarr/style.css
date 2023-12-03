@@ -1,0 +1,61 @@
+/* body{
+    background: url("https: //preview.colorlib.com/theme/woodrox/img/banner/home-banner.jpg");
+    width: 200px;
+    height: 600px;
+} */
+.navbar{
+    position: fixed;
+    width: 100%;
+ 
+}
+.heading{
+    
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    background-color: rgba(109, 97, 97, 0.543);
+    padding: 5px;
+    margin: 0 auto;
+    & .visitUs{
+        display: flex;
+        margin-left:10px ;
+        gap: 20px;
+        justify-content: start;
+    }
+}
+.pages{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    & ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            & li{
+                padding-left: 15px;
+            }
+        }  
+   
+}
+.active {
+    color: rgb(226, 226, 226);
+        font-weight: bolder;
+ }
+
+/* .navbar {
+    margin: 0;
+    padding: 0;
+    background-image: url('https: //preview.colorlib.com/theme/woodrox/img/banner/home-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    z-index: 1;
+
+    /* Ekran yüksekliği kadar ayarlamak için */
+  

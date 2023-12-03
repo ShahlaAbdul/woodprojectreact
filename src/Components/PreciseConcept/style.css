@@ -1,0 +1,85 @@
+
+.homeStart{
+    background-image: url("https://preview.colorlib.com/theme/woodrox/img/banner/home-banner.jpg");
+    
+        /* width: 100%; */
+        /* height: 90vh; */
+        background-position: center;
+        /* z-index: 1; */
+        background-repeat: no-repeat;
+}
+.precie{
+     display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 200px;
+    margin-bottom: 200px; 
+
+            /* margin: 0; */
+            /* padding: 0; */
+            
+    
+}
+.precie_left{
+   
+    width: 50%;
+    font-family: "Heebo",sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+  
+}
+.preciseText{
+    margin-top: 0px;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: "Heebo", sans-serif;
+        line-height: 47px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+}
+ .preciseText p{
+        font-family: "Roboto", sans-serif;
+            margin-bottom: 35px;
+            max-width: 555px;
+ }
+
+ .precie_right{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 400px;
+    padding: 30px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #5e5555;
+    opacity: 40%;
+   
+ }
+
+ .precie_item{
+   
+    width: 100%;
+    margin: 0px  20px;
+    padding: 40px 30px;
+    align-items: center;
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+     border-bottom:2px solid rgba(255, 255, 255, 0.1); 
+     background-color: transparent;
+
+    
+ }
+ .precie_item:hover{
+    background-color:  #faba00;
+        transition: all 600ms ease-out 0s
+
+ }
+ .precie_item img{
+    width: 60px;
+    height: 60px;
+ }
