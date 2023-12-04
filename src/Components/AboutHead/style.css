@@ -1,0 +1,35 @@
+.aboutContainer {
+    background-image: url("https://preview.colorlib.com/theme/woodrox/img/banner/home-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.aboutContainer h1 {
+    color: white;
+    font-size: 40PX;
+
+}
+
+.aboutPage {
+    padding: 200px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutPage .pagestext {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagestext a {
+    color: white;
+    cursor: pointer;
+}

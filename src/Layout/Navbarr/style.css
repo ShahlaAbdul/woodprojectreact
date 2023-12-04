@@ -42,11 +42,48 @@
         }  
    
 }
-.active {
-    color: rgb(226, 226, 226);
-        font-weight: bolder;
+.active{
+    color: rgb(188, 30, 30);
+     
  }
 
+ .deactive{
+    color: #fff;
+    font-weight: bolder;
+    
+ }
+ .deactive:hover{
+    color: rgb(72, 70, 70)   ;
+
+ }
+
+ .projects{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+ }
+li:hover{
+     & .projects {
+        display: block;
+     }
+ }
+
+ .projects .deactive{
+    color: black;
+    padding: 40px;
+ }
+ .projects .proje{
+    padding:    10px;
+    border-bottom: 1px solid rgb(212, 241, 250);
+    background-color: #fff;
+ }
+  .projects .proje:hover{
+    background-color: #fab900;
+    transition: all 400ms ;
+  }
 /* .navbar {
     margin: 0;
     padding: 0;

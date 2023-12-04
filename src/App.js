@@ -3,9 +3,10 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Pages from './Pages/Pagess';
 import Contact from './Pages/Contact';
 import MainLAyout from './Layout/MainLayout';
+import Projects from './Pages/Projects';
+import ProjectDetail from './Pages/ProjectDetail';
 
 
 
@@ -16,12 +17,13 @@ function App() {
         <BrowserRouter >
           <Routes>
 
-            <Route path="/" element={<Home />} /> {/* 👈 Renders at /app/ */}
-
+            <Route path="/" element={<Home />} /> 
             <Route element={<MainLAyout />}>
-             <Route path="/About" element={<About/>} /> {/* 👈 Renders at /app/ */}
-            <Route path="/Pages" element={<Pages/>} /> {/* 👈 Renders at /app/ */}
-            <Route path="/Contact" element={<Contact/>} /> {/* 👈 Renders at /app/ */}
+             <Route path="/About" element={<About/>} /> 
+              <Route path="/Contact" element={<Contact />} />
+              <Route path="/Projects" element={<Projects />} />
+              <Route path="/ProjectDetail" element={<ProjectDetail/>} />
+             
             </Route>
             
      

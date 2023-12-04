@@ -1,0 +1,57 @@
+.footerContainer{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #1d1b1b;
+
+}
+p{
+    color: #7a7a7a;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding:   120px 0px ;
+    
+}
+.footer h2{
+    color: #fff;
+    font-size: 20px;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+
+}
+.aboutmetext{
+    max-width: 430px; 
+}
+.aboutme a{
+    color: #fab000;
+}
+
+.form{
+    border: none;
+   max-width: 600px;
+   min-width: 400px;
+   height: 60px;
+   padding: 10px 0px;
+   display: flex;
+}
+.form input{
+    width: 90%;
+}
+.form .submit{
+    background-color: #fab000;
+    color: #fff;
+}
+.followMeIcons{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    color: rgb(205, 197, 197);
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutHead from '../../Components/AboutHead';
 
 function Contact() {
   return (
     <div>
-      THIS IS CONTACT PAGES
+      <AboutHead headtitle={<h1>Contact</h1>}></AboutHead>
     </div>
   );
 }

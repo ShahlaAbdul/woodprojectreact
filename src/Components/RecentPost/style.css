@@ -1,0 +1,38 @@
+.recentPost{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.recentPostText{
+    padding: 80px;
+    margin: 0 auto;
+    display: flex;
+   flex-direction: column;
+
+}
+.recentPostText h2{
+    font-size: 34px;
+   
+}
+.recentPostCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 10px;
+ 
+}
+.recentPostCard1{
+    max-width: 360px;
+}
+
+
+.recentPostCards img{
+    width: 100%;
+    /* width: 365px;
+    border-radius: 10px;
+    height: 260px !important; */
+}

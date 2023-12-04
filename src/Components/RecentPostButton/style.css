@@ -1,0 +1,21 @@
+button{
+    width: 80px;
+    padding: 6px;
+    margin-right:3px ;
+    border: none;
+    
+}
+.button1{
+    background-color: #fab000;
+    color: #fff;
+}
+.button2{
+    border: 1px solid #ded4d4;
+}
+.button2:hover{
+    background-color: #fab000;
+    border: none;
+    color: #fff;
+    border: none;
+    transition: all 200ms ;
+}

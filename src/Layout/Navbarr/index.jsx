@@ -40,21 +40,88 @@ function Navbar() {
         <div className="pages_list">
           <ul>
             <li>
-              <NavLink to={"/"} ativeClassName="active">
+              <NavLink to={"/"} className={"deactive"} ativeClassName="active">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/"}>About</NavLink>
+              <NavLink
+                to={"/About"}
+                className={"deactive"}
+                ativeClassName="active"
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="deactive">
+              {" "}
+              Page
+              <div className="projects">
+                <div className="proje">
+                  {" "}
+                  <NavLink
+                    to={"/Projects"}
+                    className={"deactive"}
+                    activeClassname="active"
+                  >
+                    Project
+                  </NavLink>
+                </div>
+                <div className="proje">
+                  {" "}
+                  <NavLink
+                    to={"/Projects"}
+                    className={"deactive"}
+                    activeClassname="active"
+                  >
+                    Project Detail
+                  </NavLink>
+                </div>
+                <div className="proje">
+                  {" "}
+                  <NavLink
+                    to={"/"}
+                    className={"deactive"}
+                    activeClassname="active"
+                  >
+                    Elements
+                  </NavLink>
+                </div>
+              </div>
+            </li>
+            <li className="projectname">
+              <NavLink
+                to={"/Blog"}
+                className={"deactive"}
+                ativeClassName="active"
+              >
+                Blog
+                <div className="projects">
+                  <div className="proje">
+                    <NavLink
+                      to={"/Blog"}
+                      className={"deactive"}
+                      activeClassname="active"
+                    >
+                      Blog
+                    </NavLink>
+                  </div>
+                  <div className="proje">
+                    <NavLink
+                      to={"/Blog"}
+                      className={"deactive"}
+                      activeClassname="active"
+                    >
+                      Blog Detail
+                    </NavLink>
+                  </div>
+                </div>
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/"}>Pages</NavLink>
-            </li>
-            <li>
-              <NavLink to={"/"}>Blog</NavLink>
-            </li>
-            <li>
-              <NavLink to={"/"}>Contact</NavLink>
+              <NavLink to={"/Contact"} className={"deactive"} ativeClassName="active">
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>

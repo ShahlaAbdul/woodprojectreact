@@ -1,0 +1,53 @@
+.lavendarAbmientContainer{
+    width:75% ;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "Roboto",
+            sans-serif;
+            line-height: 27px;
+}
+.lavendarAbmient p{
+
+    font-size: 16px;
+     
+        font-weight: normal;
+        color: #777777;
+        
+}
+
+.lavendarAbmient{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.lavendarAbmientimg{
+    width: 70%;
+    text-align: center;
+    
+}
+.lavendarAbmientimg img{
+    width: 95%;
+}
+.lavendarAbmientright{
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+        margin: 0 auto;
+}
+.lavendarAbmientrightHead{
+  
+    margin: 0 auto;
+}
+.lavendarAbmientrightHead h3{
+    font-size: 20px;
+}
+.lavendarAbmientrightfoot{
+    display: flex;
+    gap: 20px;
+}
+.lavendarAbmientrightfoot h6{
+    font-size: 16px;
+}
